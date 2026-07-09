@@ -1,3 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
 .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -47,3 +57,42 @@ ul li a:hover {
 .btn:hover {
     background-color: #2348c8;
 }
+
+
+
+/* Hero(Bannner Section */
+
+
+.hero-bg {
+    background-image:   linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.hero-content {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    max-width: 750px;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+ 
+}
+
+.hero-content p {
+    margin-bottom: 37%;
+    line-height: 1.5;
+}
+
