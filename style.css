@@ -157,7 +157,7 @@ ul li a:hover {
 /* Secure Your Spot */
 
 .pricing {
-    padding: 40px 0;
+    padding: 40px 0 80px;
 }
 
 
@@ -294,4 +294,44 @@ ul li a:hover {
 
 .featured ul li {
     color: rgb(199, 198, 198);
+}
+
+
+/* Footer */
+
+
+footer {
+    background-color: #0f172a;
+    padding: 40px 0;
+    color: #94a3b8;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    font-size: 14px;
+}
+
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.footer-links a {
+    text-decoration: none;
+    color: #94a3b8;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: white;
 }
